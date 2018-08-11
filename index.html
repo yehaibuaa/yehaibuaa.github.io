@@ -1,196 +1,174 @@
+
 <!DOCTYPE html>
+<style>
+.disabled{
+    pointer-events: none;
+    color:black;
+}
+</style>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Hai Ye's homepage</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
     <link rel="icon" href="./image/man.jpeg">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Loading Bootstrap -->
-    <link href="bootstrap.css" rel="stylesheet">
+    <title>Hai Ye's Homepage</title>
 
-    <!-- Loading Flat UI -->
-    <link href="flat-ui.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="style/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Loading custom UI -->
-    <link href="custom.css" rel="stylesheet">
-
-    <!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-    <![endif]-->
   </head>
+
   <body>
-    <div class="container">
-    <div class="row">
-      <div class="span4">
-        <div class="header">Hai Ye</div>
-        <small>&nbsp;</small>
-      </div>
-      <div class="span10"></div>
-    </div>
-    <div class="row">
-      <div class="span12">
-        <div class="content">
-          <img src="image/yehai.jpeg" class="fright" width = '240'/>
-          <div class="desc-block">
-            <p>
-              Hi! I am Hai ( [,etʃ e 'aɪ] ). I am a research assistant in Northeastern University (March to July, 2018) supervised by <a href = "http://www.ccs.neu.edu/home/luwang/">Prof. Lu Wang </a>.</p>
-            <p>
-              Before that, I obtained my bachelor degree from the School of Computer Science and Engineering (SCSE) of <a href = http://ev.buaa.edu.cn/>Beihang University (BUAA)</a> in July 2017. <!--Before that, I was an intern in the Institute of Intelligent Information Processing, Beihang University, working with Zhoujun Li, Wenhan Chao and <a href = "https://zhunchenluo.github.io/"> Zhunchen Luo </a>. -->
-            </p>
-            <p>My research interests mainly lie in Machine Learning and Natural Language Processing, e.g. Natural Language Generation, Information Extraction and Semi-supervised Learning. I also have interests on improving interpretabilities of neural models in NLP domain. 
-            <!--<p> From Octbor 2017, I will be a research assistant in <a href = "https://www.polyu.edu.hk/web/en/home/index.html">The Hong Kong Polytechnic University (PolyU)</a>, supervised by <a href = "http://www4.comp.polyu.edu.hk/~cswjli/"> Wenjie Li</a>. -->
-            </p>
-          </div>
 
-          <a href="https://scholar.google.co.jp/citations?user=_dQWEzEAAAAJ&hl=en&oi=sra"> Google Scholar </a> | <a href=http://dblp.uni-trier.de/pers/hd/y/Ye:Hai> DBLP </a> | <a href="https://github.com/oceanypt"> Github </a> | <a href = "cv/cv.pdf"> CV </a> | <a href = 'http://yehaiblog.lofter.com/'> Blog </a>
-
-          <!--<p>
-            <a style="font: 100% Arial,sans-serif;"><img src="files/icon/email_icon.png" width="15" height="15" style="vertical-align:middle;" border="0">&nbsp;&nbsp;lishuang at mit.edu</a>
+<div style="max-width:800px" class="container">
+  <div class="page-header">
+   <div class="row">
+        <div class="col-sm-3">
             <br>
-            <!--<a href="files/CV.pdf" target="_blank">-->
-            <!--<span style="font: 100% Arial,sans-serif;"><img src="files/icon/cv_icon.png" width="15" height="15" style="vertical-align:middle;" border="0">&nbsp;&nbsp;CV</a>
+            <div align="center">
+            <img class="img-responsive" src="./image/yehai.jpg" width="220">
             <br>
-            <a href="https://scholar.google.com/citations?user=auA1nNAAAAAJ" target="_blank"><span style="font: 100% Arial,sans-serif;"><img src="files/icon/sholar.png" width="15" height="15" style="vertical-align:middle;" border="0">&nbsp;&nbsp;Google Scholar</a>
-          </p>
-        -->
-          <hr />
+            <a href="https://scholar.google.co.jp/citations?user=_dQWEzEAAAAJ&hl=en&oi=sra"> [Google Scholar] </a> <br> <a href=http://dblp.uni-trier.de/pers/hd/y/Ye:Hai> [DBLP] </a> <br> <a href="https://github.com/oceanypt"> [Github] </a> <br>  <a href = "cv/cv.pdf"> [CV] </a> <a href = 'http://yehaiblog.lofter.com/'> [Blog] </a>
 
-          
-          <h3>News</h3>
-          <p> <span class = 'new'>[new]</span> Released the <a href = 'https://github.com/oceanypt/Court-View-Gen'>data</a> for our NAACL 2018 paper.</p>
-<!--           <p>The cooperated <a href="http://202.118.75.4/lu/Paper/T-IP/lishuang/Adaptive%20Metric%20Learning%20for%20Saliency%20Detection.pdf">paper</a> with <a href="https://research.adobe.com/">Adobe Research</a> has been accepted in TIP 2015.</p> -->
-          <hr />
+            <!--<img class="img-responsive" src="./image/yehai.jpg" width="65">-->
+        
+         </div>
+         </div> <!--.col-sm-4-->
+       <div class="col-sm-9">
+         <h1> Hai Ye <span style="font-family:STFangsong; font-size:18pt"> (叶海)</span>  </h1>
+        <br>
+        <p>
+        Hi! I am Hai ( [,etʃ e 'aɪ] ). I am a research assistant in Northeastern University (March to July, 2018) supervised by <a href = "http://www.ccs.neu.edu/home/luwang/"> Lu Wang </a>.</p>
+      <p>
+        Before that, I obtained my bachelor degree from the School of Computer Science and Engineering (SCSE) of <a href = http://ev.buaa.edu.cn/>Beihang University (BUAA)</a> in July 2017. <!--Before that, I was an intern in the Institute of Intelligent Information Processing, Beihang University, working with Zhoujun Li, Wenhan Chao and <a href = "https://zhunchenluo.github.io/"> Zhunchen Luo </a>. -->
+      </p>
+      <p>My research interests mainly lie in Machine Learning and Natural Language Processing, e.g. Natural Language Generation, Information Extraction and Semi-supervised Learning. I also have interests on improving interpretabilities of neural models in NLP domain. 
+      <!--<p> From Octbor 2017, I will be a research assistant in <a href = "https://www.polyu.edu.hk/web/en/home/index.html">The Hong Kong Polytechnic University (PolyU)</a>, supervised by <a href = "http://www4.comp.polyu.edu.hk/~cswjli/"> Wenjie Li</a>. -->
+      </p>
+      <p>Email: { hye.me [at] outlook [dot] com }</p>
 
-          <h3>Publications</h3>
-          <div class="list-pub-img">
-            <ul>
-              <li>
-                <img src="image/naacl2018.png" class="thumbnail"/>
-                <div class="publication">
-                  <div class="title" style="font-size:1.05em;">Interpretable Charge Predictions for Criminal Cases: Learning to Generate Court Views from <br> Fact Descriptions</div>
-                  <div class="authors"> <u><b>Hai Ye</b></u>*, Xin Jiang*, Zhunchen Luo*, Wenhan Chao</div>
-                  <div class="venue">Proceedings of the Conference of the North American Chapter of the Association for <br> Computational Linguistics (NAACL), 2018, Long paper, Oral.</div>
-                  <div class="resources"><a href="papers/naacl2018.pdf">[pdf]</a><a href="papers/court-view-generation-ppt.pdf">[presentation]</a><a href="https://github.com/oceanypt/Court-View-Gen">[Data]</a></div>
-                </div>
-              </li>
-              
-              <li>
-                <img src="image/coling2018.jpeg" class="thumbnail"/>
-                <div class="publication">
-                  <div class="title" style="font-size:1.05em;">Interpretable Rationale Augmented Charge Prediction System</div>
-                  <div class="authors"> <u><b>Hai Ye</b></u>*, Xin Jiang*, Zhunchen Luo*, Wenhan Chao, Wenjia Ma</div>
-                  <div class="venue">Proceedings of the International Conference on Computational Linguistics:<br> System Demonstrations (COLING), 2018.</div>
-                  <div class="resources"><a href="papers/Interpretable Rationale Augmented Charge Prediction System.pdf">[pdf]</a></div>
-                </div>
-              </li>
+     </div> <!--.col-sm-4-->
+  </div> <!--/.row-->
+  
 
-              <li>
-                <img src="image/acl2017.jpeg" class="thumbnail"/>
-                <div class="publication">
-                  <div class="title" style="font-size:1.05em;">Jointly Extracting Relations with Class Ties via Effective Deep Ranking</div>
-                  <div class="authors"> <u><b>Hai Ye</b></u>, Wenhan Chao, Zhunchen Luo, Zhoujun Li</div>
-                  <div class="venue">Proceedings of the Association for Computational Linguistic</span> (ACL), 2017, Long paper.</div>
-                  <div class="resources"><a href="papers/acl2017.pdf">[pdf]</a><a href="https://github.com/oceanypt/DR_RE">[code]</a></div>
-                </div>
-              </li>
 
-              <li>
-                <img src="image/pakdd2017.jpeg" class="thumbnail"/>
-                <div class="publication">
-                  <div class="title" style="font-size:1.05em;">Dependency-tree Based Convolutional Stacked Neural Networks for Aspect Term Extraction</div>
-                  <div class="authors"><u><b>Hai Ye</b></u>, Zichao Yan, Zhunchen Luo, Wenhan Chao</div>
-                  <div class="venue">Proceedings of the Pacific-Asia Conference on Knowledge Discovery and Data Mining<br> (PAKDD), 2017</div>
-                  <div class="resources"><a href="papers/pakdd2017.pdf">[pdf]</a></div>
-                </div>
-              </li>
 
- 
-              <li>
-                <img src="image/pcm2016.jpeg" class="thumbnail"/>
-                <div class="publication">
-                  <div class="title" style="font-size:1.05em;">Homogenous Color Transfer Using Texture Retrieval and Matching</div>
-                  <div class="authors">Chang Xing, <u><b>Hai Ye</b></u>, Tao Yu, Zhong Zhou</div>
-                  <div class="venue">Proceedings of the Conference of Pacific-Rim Conference on Multimedia (PCM), 2016.</div>
-                  <div class="resources"><a href="papers/pcm2016.pdf">[pdf]</a></div>
-                </div>
-              </li>
 
-            </ul>
-            
-          </div>
-          <hr />
-          
-          <h3>Professional Experience</h3>
-          <div class="list-3">
-            <ul>
-              <li>
-                <img src="image/NEU.png"/>
-                <h4>Visiting Scholar</h4>
-                <h4><small> 2018.3 - 2018.7 | Boston, USA</small></h4>
-                <h5> <a href = "http://www.ccis.northeastern.edu/"> College of Computer and Information Science, Northeastern University </a> </h5> 
-              </li>
-            </ul>
-          </div>
 
-          <hr />
+    <!--<div style="max-width:800px" class="container">
 
-          <h3>Education</h3>
-          <div class="list-3">
-            <ul>
-              <li>
-                <img src="image/Beihang.png"/>
-                <h4>B.Eng</h4>
-                <h4><small> 2013.9 - 2017.6 | Beijing, China</small></h4>
-                <h5> <a href = "http://scse.buaa.edu.cn/"> School of Computer Science and Engineering, Beihang University </a> </h5> 
-              </li>
-            </ul>
-          </div>
+      <div class="page-header">
+        <h1> Hai Ye <span style="font-family:STFangsong; font-size:18pt"> (叶海)</span>  </h1>
+      </div>  
+      <div>
+      <img src="image/yehai.jpg" style="float:right" width="220px"/>
+      <div style="margin-right: 250px">
+  
+      <p>
+        Hi! I am Hai ( [,etʃ e 'aɪ] ). I am a research assistant in Northeastern University (March to July, 2018) supervised by <a href = "http://www.ccs.neu.edu/home/luwang/"> Lu Wang </a>.</p>
+      <p>
+        Before that, I obtained my bachelor degree from the School of Computer Science and Engineering (SCSE) of <a href = http://ev.buaa.edu.cn/>Beihang University (BUAA)</a> in July 2017. 
+      </p>
+      <p>My research interests mainly lie in Machine Learning and Natural Language Processing, e.g. Natural Language Generation, Information Extraction and Semi-supervised Learning. I also have interests on improving interpretabilities of neural models in NLP domain. 
+    
+      </p>
+      <p>Email: { yehai@buaa.edu.cn, hye.me@outlook.com }</p>
 
-          <hr />
+  
 
-          <h3>Services</h3>
-          <div class="list-3">
-            <ul>
-              <li>
-                <h4><b>External reviewer</b></h4>
-                <h6>ACL 2018, COLING 2018 (demo track), EACL 2017</h6>
-                <br />
-                <h4><b>Volunteer</b></h4>
-                <h6>NAACL 2018</h6>
-              </li>
-            </ul>
-          </div>
+      <p><a href="https://scholar.google.co.jp/citations?user=_dQWEzEAAAAJ&hl=en&oi=sra"> Google Scholar </a> | <a href=http://dblp.uni-trier.de/pers/hd/y/Ye:Hai> DBLP </a> | <a href="https://github.com/oceanypt"> Github </a> |  <a href = "cv/cv.pdf"> Resume </a>
+      <p>
 
-          <hr />
-          <a href="https://clustrmaps.com/site/19pt5" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=E8l5dFWxvRBtOuuroka4srUrmYmbIshMhcM3Zn7P9bM&cl=ffffff" width="20px"></a>
+      </div>-->
+      <hr style="clear:both"/>
+      <h3><font color = 'red'>News</font></h3>
+        <p>
+          [8/2018] One paper is accepted to EMNLP 2018. 
+        </p>
 
-          
-          <!-- <h3>Miscellaneous</h3>
-          <p>
-            <h4><a href="travel.html">Travel</a><h4>
-          </p> -->
-          <!-- <hr /> -->
-          
-        </div>
-      </div>
+     
+
+      <hr style="clear:both"/>
+      <h3><font color = 'black'>Publications</font></h3>
+      <!--<h4>Conference papers:</h4>-->
+        <p>
+          <li> <a href = "">Semi-Supervised Learning for Keyphrase Generation</a></li>
+          <b>Hai Ye</b>, <a href = 'http://www.ccs.neu.edu/home/luwang/'>Lu Wang</a></br>
+          In <span style="font-style: italic;">Proceedings of the Conference on Empirical Methods in Natural Language Processing</span> (EMNLP), 2018, Long paper. <br/>
+        </p>
+
+        <p>
+        <li><a href = "papers/naacl2018.pdf">Interpretable Charge Predictions for Criminal Cases: Learning to Generate Court Views from Fact Descriptions</a></li>
+        <b>Hai Ye</b>*, Xin Jiang*, <a href = 'https://scholar.google.co.jp/citations?user=-4u9k60AAAAJ&hl=en'>Zhunchen Luo</a>*, Wenhan Chao</br>
+        In <span style="font-style: italic;">Proceedings of the Conference of the North American Chapter of the Association for Computational Linguistics</span> (NAACL), 2018, Long paper, Oral. <br/>
+        [<a href = "https://github.com/oceanypt/Court-View-Gen">Data</a>] [<a href = "papers/court-view-generation-ppt.pdf">Presentation</a>]
+        </p>
+
+        <p>
+        <li><a href = "papers/Interpretable Rationale Augmented Charge Prediction System.pdf">Interpretable Rationale Augmented Charge Prediction System</a></li>
+        <b>Hai Ye</b>*, Xin Jiang*, <a href = 'https://scholar.google.co.jp/citations?user=-4u9k60AAAAJ&hl=en'>Zhunchen Luo</a>*, Wenhan Chao, Wenjia Ma</br>
+        In <span style="font-style: italic;">Proceedings of the International Conference on Computational Linguistics: System Demonstrations</span> (COLING), 2018. <br/>
+        </p>
+        
+      <p>
+        <li><a href="papers/acl2017.pdf">Jointly Extracting Relations with Class Ties via Effective Deep Ranking</a></li>
+        <b>Hai Ye</b>, Wenhan Chao, <a href = 'https://scholar.google.co.jp/citations?user=-4u9k60AAAAJ&hl=en'>Zhunchen Luo</a>, Zhoujun Li<br/>
+        In <span style="font-style: italic;">Proceedings of the Association for Computational Linguistic</span> (ACL), 2017, Long paper. <br/>
+        [<a href = "https://github.com/oceanypt/DR_RE">code</a>]
+      </p>
+      <p>
+        <li><a href="papers/pakdd2017.pdf">Dependency-tree Based Convolutional Stacked Neural Networks for Aspect Term Extraction</a></li>
+        <b>Hai Ye</b>, Zichao Yan, <a href = 'https://scholar.google.co.jp/citations?user=-4u9k60AAAAJ&hl=en'>Zhunchen Luo</a>, Wenhan Chao<br/>
+        In <span style="font-style: italic;">Proceedings of the Pacific-Asia Conference on Knowledge Discovery and Data Mining</span> (PAKDD), 2017.
+      </p>
+      <p>
+        <li><a href="papers/pcm2016.pdf">Homogenous Color Transfer Using Texture Retrieval and Matching</a></li>
+        Chang Xing, <b>Hai Ye</b>, Tao Yu, Zhong Zhou<br/>
+        In <span style="font-style: italic;"> Proceedings of the Conference of Pacific-Rim Conference on Multimedia</span> (PCM),  2016.
+      </p>
+      <p>
+        (* indicates equal contribution)
+      </p>
+
+
+
+      <hr style = 'clear:both'>
+      <a name = "education" class="disabled"><h3><font color = 'black'>Education</font></h3></a>
+      <p>
+        <li>2013.9 - 2017.6: B.Eng, Beihang University (BUAA), Beijing, China</li>
+      </p>
+
+      <hr style = "clear:both"/>
+      <h3>Work Experience</h3>
+      <p>
+        <li>2018.3 - 2018.7: Visiting Scholar at Northeastern University, Boston, USA <br/>Working with <a href = 'http://www.ccs.neu.edu/home/luwang/'>Prof. Lu Wang</a>.</li>
+      </p>
+
       
-    </div>
-    <!-- Load JS here for greater good =============================-->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/application.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      <hr style = "clear:both"/>
+      <h3>Professional Services </h3>
+      <p>
+        <li><b>External reviewer</b>: ACL 2018, COLING 2018 (demo track), EACL 2017</li>
+      </p>
+      <p>
+        <li><b>Volunteer</b>: NAACL 2018</li>
+      </p>
 
-      ga('create', 'UA-41931534-1', 'stanford.edu');
-      ga('send', 'pageview');
 
-    </script>
+      <hr style = "clear:both"/>
+      <h3>Miscellany</h3>
+      <p><li><b>My favorite hobby</b>: Music, listen and sing songs.</li></p>
+      <p><li><b>Other hobbies</b>: Playing sports, I know lots of ball games and good at some of them, like ping-pong, badminton.</li></p>
+
+      <hr style = "clear:both"/>
+      <p> Last update: 2018.6.15 <a href="https://clustrmaps.com/site/19pt5" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=E8l5dFWxvRBtOuuroka4srUrmYmbIshMhcM3Zn7P9bM&cl=ffffff" width="20px"></a></p>
+    </div> <!-- /container -->
+
   </body>
 </html>
+
